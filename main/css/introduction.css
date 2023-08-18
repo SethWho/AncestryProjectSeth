@@ -35,6 +35,36 @@ body {
     height: 100vh;
 }
 
+.dad-intro {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.dad-intro img {
+    width: 400px;
+    height: 400px;
+    filter: drop-shadow(1px 1px 1px #222222);
+}
+
+.mom-intro {
+    text-align: center;
+    position: absolute;
+    top: 115%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.mom-intro img {
+    width: 350px;
+    height: 220px;
+    filter: drop-shadow(1px 1px 1px #222222);
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
